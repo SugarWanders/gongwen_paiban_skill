@@ -20,6 +20,7 @@
 - `archives/gongwen_format_V1_3_1.zip`：压缩后的 skill 包。
 - `README.md`：本说明。
 - `功能说明.md`：skill 可实现功能说明。
+- `调用方法.md`：Codex 和 Claude Code 中的调用方法。
 - `版本说明.md`：本版本发布说明。
 
 ## 安装方式
