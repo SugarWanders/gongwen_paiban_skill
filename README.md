@@ -28,7 +28,7 @@
 将 `gongwen_format_V1_3_1/` 复制到所用工具的本地 skill 或规则目录。以 Codex 为例：
 
 ```powershell
-Copy-Item -Recurse .\gongwen_format_V1_3_1 C:\Users\MIA\.codex\skills\
+Copy-Item -Recurse .\gongwen_format_V1_3_1 "$env:USERPROFILE\.codex\skills\"
 ```
 
 如果使用 Claude Code 等其他工具，请按对应工具的本地规则目录或项目上下文方式引用本目录；也可以直接调用 `gongwen_format_V1_3_1/scripts/format_gongwen.py` 生成 `.docx`。
