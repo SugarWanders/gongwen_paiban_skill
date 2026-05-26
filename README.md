@@ -1,6 +1,6 @@
 # 公文排版助手 Skill V1_3_1
 
-这是公文排版助手配套的 Codex skill 独立发布目录。
+这是公文排版助手配套的 skill 独立发布目录，可供支持本地 skill、规则文档或脚本调用的 AI 编程工具使用。
 
 ## 版本信息
 
@@ -24,10 +24,12 @@
 
 ## 安装方式
 
-将 `gongwen_format_V1_3_1/` 复制到 Codex skills 目录，例如：
+将 `gongwen_format_V1_3_1/` 复制到所用工具的本地 skill 或规则目录。以 Codex 为例：
 
 ```powershell
 Copy-Item -Recurse .\gongwen_format_V1_3_1 C:\Users\MIA\.codex\skills\
 ```
+
+如果使用 Claude Code 等其他工具，请按对应工具的本地规则目录或项目上下文方式引用本目录；也可以直接调用 `gongwen_format_V1_3_1/scripts/format_gongwen.py` 生成 `.docx`。
 
 本目录用于单独的 skill 仓库，不随 EXE 应用仓库一起提交。
